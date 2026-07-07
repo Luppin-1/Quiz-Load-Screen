@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="qls.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-linear-to-r from-green-800 via-green-700 to-emerald-400     min-h-screen flex items-center justify-center p-4">
+
+    <div class="w-full max-w-md flex items-center flex-col   ">
+        
+        <div class="relative w-full h-20 bg-gray-300 rounded-full overflow-hidden  ">
+            
+            <div id="complete" class="absolute left-0 top-0 h-full bg-linear-to-r from-green-600 via-green-500 to-green-400 rounded-full transition-all duration-500 ease-out"
+                 style="width: 0%">
+            </div>
+            
+            <span id="percent" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-xl font-black text-gray-800 z-10">
+                0%
+            </span>
+        </div>
+        <button class="bg-linear-to-t   from-yellow-400  mt-5 rounded-xl p-1 border-b-2  hover:bg-linear-to-t  hover:from-yellow-500 hover:to-yellow-500    transition duration-500"> go to 100%</button>
+    </div>
+    </body>
+<script src="qls.js"></script>
+</html>
