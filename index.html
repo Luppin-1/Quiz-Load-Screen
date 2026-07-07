@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <link rel="stylesheet" href="ng.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <form id="main-n">
+        <div class="select-n">
+            <label for="choose-number" class="label-n">از 0 تا 1000 انتخاب کنید</label>
+            <input type="number" name="choose-n" class="input-number"
+            placeholder="حدس خود را وارد کنید ..." min="0" max="1000" required>
+        </div>
+
+        <button type="submit" class="submit-n">ثبت عدد</button>
+
+        <p class="counter">فرصت باقی مانده :<span class="counter-span">10</span></p>
+        <p class="alarm">-------</p>
+    </form>
+
+    <div class="popup">
+        <div class="popup-link">
+            <p class="popup-p">کمه مشتی برو بالاتر</p>
+            <div class="buttons">
+                <button class="popup-finish">انصراف</button>
+                <button class="popup-continue">ادامه</button>
+            </div>
+        </div>
+    </div>
+    <div class="secpage">
+        <button class="playagain">شروع مجدد</button>
+        <button class="history">تاریخچه</button>
+    </div>
+    <div class="history-container">
+        <h2>📜 تاریخچه حدس‌ها</h2>
+        <ul class="history-list"></ul>
+        <button class="playagain2">شروع مجدد</button>
+    </div>
+</body>
+<script src="ng.js"></script>
+</html>
