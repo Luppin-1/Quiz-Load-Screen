@@ -14,4 +14,4 @@ A simple progress bar with animated loading effect built with HTML, CSS & JavaSc
 - JavaScript
 
 ## How to run
-Open  in your browser.
+Open https://luppin-1.github.io/Quiz-Load-Screen/ in your browser.
